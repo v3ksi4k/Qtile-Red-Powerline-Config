@@ -30,44 +30,39 @@ This config is made for arch linux. If you want to use it on other distros, plea
 
 # Keybinds
 
-* Have in mind that only the most important keybinds are listed. 
+Have in mind that only the most important keybinds are listed. 
 
 *() - Requirements*
 
 ## [alt] + 
-- Space - Switch focus to the next window.
-- h,j,k,l - Switch focus to the window located in the specified direction.
-- f - Toggle fullscreen on a currently focused window.
-- 1,2,3...9 - Switch to a workspace with a specific number.
+- **Space** - Switch focus to the next window.
+- **h,j,k,l** - Switch focus to the window located in the specified direction.
+- **f** - Toggle fullscreen on a currently focused window.
+- **1,2,3...9** - Switch to a workspace with a specific number.
 
-(rofi)
-- c - Open rofi application launcher. (Currently requires personal configuration)
+- **c** - Open rofi application launcher. **(rofi + its config)**
 
 ## [alt] + [shift] +
-- h,j,k,l - Shuffle the currently focused window in a specific direction.
-- 1,2,3...9 - Move a currently focused to a workspace with a specific number.
-- w - Toggle the floating of a currently focused window.
-- q - Kill the currently focused window.
-- m - Toggle the splitting between a group of windows.
+- **h,j,k,l** - Shuffle the currently focused window in a specific direction.
+- **1,2,3...9** - Move a currently focused to a workspace with a specific number.
+- **w** - Toggle the floating of a currently focused window.
+- **q** - Kill the currently focused window.
+- **m** - Toggle the splitting between a group of windows.
 
-(playerctl)
-- z - Play the previous song.
-- x - Play/Pause the music player.
-- c - Play the next song.
+- **z** - Play the previous song. **(playerctl)**
+- **x** - Play/Pause the music player. **(playerctl)**
+- **c** - Play the next song. **(playerctl)**
 
-- a - Spawn a browser specified at the beggining of the config.
-- s - Spawn a file manager specified at the beggining of the config.
-- d,Return - Spawn a terminal specified at the beggining og the config.
+- **a** - Spawn a browser specified at the beggining of the config.
+- **s** - Spawn a file manager specified at the beggining of the config.
+- **d,Return** - Spawn a terminal specified at the beggining og the config.
 
-(flameshot)
-- f - Open the screenshot menu.
+- **f** - Open the screenshot menu. **(flameshot)**
 
 ## [alt] + [control] +
-- h,j,k,l - Control the size of the currently focused window.
-- r - Reload the config.
+- **h,j,k,l** - Control the size of the currently focused window.
+- **r** - Reload the config.
 
-(rofi + a custom script)
-- s - Open the power menu.
+- **s** - Open the power menu. **(rofi + a custom script)**
 
-(betterlockscreen)
-- c - Lock the screen 
+- **c** - Lock the screen  **(betterlockscreen)**
