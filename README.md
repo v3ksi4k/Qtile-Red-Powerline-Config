@@ -38,7 +38,7 @@ Have in mind that only the most important keybinds are listed.
 - **f** - Toggle fullscreen on a currently focused window.
 - **1,2,3...9** - Switch to a workspace with a specific number.
 
-- **c** - Open rofi application launcher. **(rofi + its config)**
+- **c** - Open rofi application launcher. **(rofi)**
 
 ## [alt] + [shift] +
 - **h,j,k,l** - Shuffle the currently focused window in a specific direction.
@@ -61,6 +61,6 @@ Have in mind that only the most important keybinds are listed.
 - **h,j,k,l** - Control the size of the currently focused window.
 - **r** - Reload the config.
 
-- **s** - Open the power menu. **(rofi + a custom script)**
+- **s** - Open the power menu. **(rofi)**
 
 - **c** - Lock the screen  **(betterlockscreen)**
