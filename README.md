@@ -28,13 +28,13 @@ This config is made for arch linux. If you want to use it on other distros, plea
 
 6) If you want, add startup commands by editing autostart.sh and autostart_once.sh files. They are linked to the config by default
 
-## Keybinds
+# Keybinds
 
 * Have in mind that only the most important keybinds are listed. 
 
 *() - Requirements*
 
-# [alt] + 
+## [alt] + 
 - Space - Switch focus to the next window.
 - h,j,k,l - Switch focus to the window located in the specified direction.
 - f - Toggle fullscreen on a currently focused window.
@@ -43,7 +43,7 @@ This config is made for arch linux. If you want to use it on other distros, plea
 (rofi)
 - c - Open rofi application launcher. (Currently requires personal configuration)
 
-# [alt] + [shift] +
+## [alt] + [shift] +
 - h,j,k,l - Shuffle the currently focused window in a specific direction.
 - 1,2,3...9 - Move a currently focused to a workspace with a specific number.
 - w - Toggle the floating of a currently focused window.
@@ -62,7 +62,7 @@ This config is made for arch linux. If you want to use it on other distros, plea
 (flameshot)
 - f - Open the screenshot menu.
 
-# [alt] + [control] +
+## [alt] + [control] +
 - h,j,k,l - Control the size of the currently focused window.
 - r - Reload the config.
 
