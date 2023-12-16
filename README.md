@@ -10,8 +10,6 @@ This config is made for arch linux. If you want to use it on other distros, plea
 
 ## Setup tutorial:
 
-**Read before installing! This config currently is not full and won't provide high quality experience wihout later configuration.**
-
 1) Make sure that qtile is installed on your machine
 
 2) **Backup your existing qtile configuration files** which are usually located in:

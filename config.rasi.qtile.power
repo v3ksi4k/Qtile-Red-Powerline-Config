@@ -1,0 +1,43 @@
+configuration {
+  font: "JetBrainsMono Nerd Font Medium 70";
+}
+
+@theme "/dev/null"
+
+* {
+    bg:          rgba ( 20, 24, 31, 0.5 );
+    fg:          #cdd6f4;
+    fg-alt:      #d9262f;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+window {
+	border: 2 2 2 2;
+	border-color: @fg-alt;
+	border-radius: 15 15 15 15;
+    width: 350px;
+}
+element {
+	padding: 0px 0px 0px 48px;
+	text-color: @fg;
+}
+element selected {
+	text-color: @fg-alt;
+}
+element-text {
+    vertical-align: 0.50;
+    text-color: inherit;
+}
+listview {
+	layout: horizontal;
+    columns: 1;
+    lines: 3;
+	padding: 0px 0px 0px -19px;
+}
+mainbox {
+    background-color: @bg;
+    children: [ listview ];
+}
+
