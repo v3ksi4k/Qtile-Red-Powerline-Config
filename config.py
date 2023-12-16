@@ -12,6 +12,11 @@ from libqtile.lazy import lazy
 #--------------------------------------------------#
 
 # In order to display the icons on the bar download a nerd font. 
+# All rofi configs currently use the JetBrainsMono Nerd Font.
+
+# This config file assumes that every file that you cloned from the github repo is located in the ~/.config/qtile directory.
+
+# Shutdown menu is currently configured to work only with systemd.
 
 #<-----MODKEY----->#
 
@@ -25,11 +30,11 @@ file_manager = "nemo"
 
 #<-----ROFI CONFIGURATION FILE PATH----->#
 
-rofi_config_path = "" #Fill this in by yourself
+rofi_config_path = "~/.config/qtile/config.rasi.qtile" 
 
 #<-----SCRIPTS----->#
 
-power_menu_script_path = "" #Fill this in by yourself
+power_menu_script_path = os.path.expanduser("~/.config/qtile/shutdown.sh")
 autostart_script_path = os.path.expanduser("~/.config/qtile/autostart.sh")  
 autostart_once_script_path = os.path.expanduser("~/.config/qtile/autostart_once.sh")
 
