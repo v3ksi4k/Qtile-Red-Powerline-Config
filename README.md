@@ -24,7 +24,7 @@ This config is made for arch linux. If you want to use it on other distros, plea
 
 4) Clone this repository into the right directory:
 
-`git clone https://github.com/v3ksi4k/Qtile-Red-Powerline-Config/tree/master` 
+`git clone https://github.com/v3ksi4k/Qtile-Red-Powerline-Config` 
 
 5) Modify the config to your liking. Focus on the variables in the beggining of the file.
 
