@@ -2,7 +2,7 @@
 
 ## Qtile-Red-Powerline-Config
 
-A simple qtile configuration that utilizes powerline characters in the bar.
+A simple yet powerful red-themed qtile rice with powerline-like characters in the bar.
 
 The default color scheme is red, but it can be eaisly changed.
 
